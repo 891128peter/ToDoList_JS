@@ -1,0 +1,56 @@
+body{
+    background-color: #00c787;
+    display: flex;
+    justify-content: center;
+}
+.Operation-container{
+    background-color: white;
+    width: 300px;
+    padding: 30px;
+    margin-top: 50px;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0, 1);
+}
+.input-container{
+    display: flex;
+    border-radius: 25px;
+    overflow: hidden;
+}
+.task-input{
+    flex-grow: 1;
+    border: none;
+    background-color: #f0f4f8;
+    padding: 10px 15px;
+    outline: none;
+}
+.add-task-button{
+    background-color: #00c787;
+    border: none;
+    color:white;
+    padding: 10px 15px;
+    cursor:pointer;  /* 改變滑鼠外觀 */
+}
+.task-list{
+    list-style-type: none;
+    padding: 0;
+}
+.task-list li{
+    display: flex;
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+}
+.task-list label{
+    flex-grow: 1;
+}
+.task-checkbox{
+    margin-right: 15px;
+}
+.delete-task{
+    background: none;
+    border: none;
+    cursor: pointer;
+    opacity: 0.5;  /* 透明度 */
+}
+.delete-task:hover{
+    opacity: 1;
+}
